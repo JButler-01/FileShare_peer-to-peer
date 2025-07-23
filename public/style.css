@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.app {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.screen {
+    text-align: center;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #2196F3; /* Blue accent color */
+}
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+.form-input label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2196F3; /* Blue accent color */
+}
+
+.form-input input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.form-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2196F3; /* Blue accent color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.file-input {
+    margin-top: 20px;
+}
+
+.file-input label {
+    display: block;
+    padding: 10px;
+    background-color: #2196F3; /* Blue accent color */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-input input {
+    display: none;
+}
+
+.files-list {
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2196F3; /* Blue accent color */
+}
+
+.files-list .item {
+    background-color: #555;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.files-list .progress {
+    background-color: #2196F3; /* Blue accent color */
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.files-list .filename {
+    margin-top: 10px;
+    font-weight: bold;
+}
